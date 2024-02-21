@@ -2,7 +2,7 @@
 FROM python:3.10
 # copy application files
 ADD . .
-WORKDIR /banknote
+WORKDIR banknote
 # update pip
 RUN pip install --upgrade pip
 # install dependencies
