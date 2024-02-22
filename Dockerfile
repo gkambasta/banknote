@@ -17,4 +17,4 @@ RUN pip install pytest
 # expose port for application
 EXPOSE 8000
 # start fastapi application
-CMD ["python", "app/app.py"]
+CMD ["python", "app.py"]
